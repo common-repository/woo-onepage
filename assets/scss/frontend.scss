@@ -1,0 +1,21 @@
+$acl-floating-cart-bg: #ffffff;
+$acl-primary-color: #6b3ff1;
+$acl-secondary-color: #17b33b;
+$acl-light-color: #ffffff;
+$acl-dark-color: #000000;
+
+%floating-cart-branding {
+  background-color: $acl-primary-color;
+  color: $acl-light-color;
+}
+
+%product-search-branding {
+  background-color: #fccc4c !important;
+  color: #FFFFFF !important;
+}
+
+%product-item-branding {
+  background-color: $acl-secondary-color;
+  color: $acl-light-color;
+}
+@import "mini-cart-list";

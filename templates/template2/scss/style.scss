@@ -1,0 +1,31 @@
+$acl-floating-cart-bg: #ffffff;
+$acl-primary-color: #6b3ff1;
+$acl-secondary-color: #17b33b;
+$acl-light-color: #ffffff;
+$acl-dark-color: #000000;
+
+%floating-cart-branding {
+  background-color: $acl-primary-color;
+  color: $acl-light-color;
+}
+
+%product-search-branding {
+  background-color: #fccc4c;
+  color: #FFFFFF;
+}
+
+%product-item-branding {
+  background-color: $acl-secondary-color;
+  color: $acl-light-color;
+}
+
+.woosc-template-2 {
+  * {
+    box-sizing: border-box;
+  }
+  @import "search";
+  @import "product-content-02";
+}
+@import "mini-cart-list";
+@import "grid-display-variation";
+
